@@ -1,0 +1,52 @@
+# Shape Logo Maker
+
+## Description
+This is a Node.js command-line application I built that generates a simple SVG logo. You can customize the logo by choosing the text, text color, shape (circle, triangle, square), and shape color. The generated logo will be saved as an SVG file, perfect for use in web projects.
+
+## Installation
+To get started with the project, follow these steps:
+
+1. Clone the repository:
+   ```bash
+   git clone <repo-url>
+\
+Navigate to the project directory:
+
+bash
+Copy code
+cd ShapeLogoMaker
+Install the dependencies:
+
+bash
+Copy code
+npm install
+Usage
+Here’s how to generate your logo:
+
+Run the application:
+
+bash
+Copy code
+node index.js
+Follow the prompts:
+
+Enter up to 3 characters for the logo text.
+Provide a text color (keyword or hex code).
+Choose a shape (Circle, Triangle, or Square).
+Provide a shape color (keyword or hex code).
+After completing the prompts, the logo.svg file will be created in the project directory.
+
+Open the logo.svg file in your browser or an SVG viewer to see your generated logo.
+
+Tests
+To ensure everything is working as expected, you can run the Jest tests for the shapes:
+
+bash
+Copy code
+npm test
+Technologies Used
+Node.js
+Inquirer for user prompts
+Jest for testing
+License
+This project is licensed under the MIT License.
